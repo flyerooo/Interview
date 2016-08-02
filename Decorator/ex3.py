@@ -33,3 +33,5 @@ def decorated_function():
     print "I am the decorated function."
 
 decorated_function = new_decorator(decorated_function)
+print "-------------"
+decorated_function()
